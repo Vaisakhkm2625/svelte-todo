@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <meta name="viewport" content="width=device-width" />
+    
+		<link href="./_app/immutable/assets/2.b4046441.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.d24b49db.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.1eaa1268.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.01682302.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.d8256413.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.f3948525.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.809eeb0c.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.2842ea28.js">
+</head>
+
+<body data-sveltekit-preload-data="hover">
+    <div style="display: contents">  <div class="container svelte-n6b2lv"><input value=""> <button data-svelte-h="svelte-1y5r3ix">add</button> <div class="list-container svelte-n6b2lv"><div class="list svelte-n6b2lv"><div style="text-align: center;" data-svelte-h="svelte-eqfzdj">todo</div> </div> <div class="list svelte-n6b2lv"><div style="text-align: center;" data-svelte-h="svelte-1tgngcj">done</div> </div></div> </div> 
+			
+			<script>
+				{
+					__sveltekit_119dllq = {
+						assets: "/svelte-todo",
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.d24b49db.js"),
+						import("./_app/immutable/entry/app.d8256413.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+</body>
+
+</html>
